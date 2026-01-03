@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Eye Guardian",
+  "version": "1.0",
+  "description": "Protects developers from eye strain and long sitting hours",
+  "permissions": ["notifications", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
